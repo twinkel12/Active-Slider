@@ -1,0 +1,35 @@
+body{
+  margin: 10px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://eskipaper.com/images/jungle-2.jpg ");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.slider-container{
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
+/* max-width: 80%; */
+margin: auto;
+margin-top: 50px;
+border: solid rgb(225, 222, 222) 2px;
+background-color: rgba(255, 255, 255, 0.3);
+/* background: transparent; */
+box-shadow: 0 10px 15px 3px rgba(162, 200, 37, 0.947);
+}
+/* .slick-prev:hover,
+.slick-next:hover{
+  color: black;
+} */
+
+.slick-slide{
+  padding: 0 10px;
+}
+.quotes:hover{
+transform: scale(1.2) ;
+color: yellow;
+cursor: pointer;
+}
